@@ -92,9 +92,14 @@ var loopThroughEvents = function (events) {
         $("#eventsList").append(eventeventsList);
     }
 }
+
+$(document).scroll(function() {
+  $('.navbar-fixed-top').toggleClass('nav-shadow', $(document).scrollTop() >= 50);
+});
+
 var init = function () {
     $("#create").hide();
-    
+
     if (localStorage.getItem('eventData') !== undefined && localStorage.getItem('eventData').length > 20) {
         data = JSON.parse(localStorage.getItem('eventData'));
         console.log("get from localStorage %o", data);
@@ -108,4 +113,5 @@ var init = function () {
         });
     }
 }
+
 init();

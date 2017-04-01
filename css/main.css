@@ -1,5 +1,11 @@
-body {
-  padding-top: 80px;
+nav.navbar,
+nav.navbar-fixed-top {
+  border-radius: 0;
+  border: 0;
+}
+
+.nav-shadow {
+  box-shadow: 0 1px 15px rgba(0,0,0,.4);
 }
 
 .thumbnail .event-image {
