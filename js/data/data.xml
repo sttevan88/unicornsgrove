@@ -56,7 +56,7 @@
 	</location>
 	<!-- image TODO in version 2 -->
 	<!-- price plain text -->
-	<price>Eintritt: 99,-€</price>
+	<price>Eintritt: 99,-&amp;euro;</price>
 	<tags>
 		<tag>LGBTI</tag>
 		<tag>Men</tag>
