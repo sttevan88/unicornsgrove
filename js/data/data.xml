@@ -37,7 +37,7 @@
 	<eventImage>https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg</eventImage>
 </event>
 <event>
-	<title>Vesper something.</title>
+	<title>Vesper</title>
 	<description>enjoy Zwouml;lf Apostel Kirche</description>
 	<timestampBegin>2017-04-01T12:20:00+01:00</timestampBegin>
 	<timestampEnd>2017-04-01T12:23:00+01:00</timestampEnd>
@@ -111,18 +111,17 @@
 	<eventImage>https://scontent.xx.fbcdn.net/v/t1.0-9/17264763_1841064002817202_649364053932559223_n.png?oh=4dec07e56b702bc3309e1977d4ab5851&amp;oe=5967F755</eventImage>
 </event>
 <event>
-	<title>X-B-Liebig: Konzert "Light the Bob", "Chappi Bourgoise" und "Itaca".</title>
-	<description>enjoy "Light the Bob", "Chappi Bourgoise" und "Itaca".</description>
-	<!-- 2009-01-01T12:00:00+01:00 -->
-	<timestampBegin>2017-04-01T12:20:00+01:00</timestampBegin>
-	<timestampEnd>2017-04-01T12:23:00+01:00</timestampEnd>
+	<title>CockTail d'Amore XXL </title>
+	<description>Das schwule Must-do für den ersten Samstag des Monats: die Cocktail. Die riesige Homo-Dance-Sause lockt zudem die Jungs und Kerle wieder mit einem grandiosen Line-up. U. a. legen Prosumer und James Hillard bei der zweitägigen Partyspritztour auf.</description>
+	<timestampBegin>2017-04-01T23:00:00+01:00</timestampBegin>
+	<timestampEnd></timestampEnd>
 	<!-- <timestampBegin>1491036844</timestampBegin> -->
 	<!-- <timestampEnd>1491036844</timestampEnd>  -->
 	<!-- Link to the venue -->
 	<location>
-		<name>X-B_Liebig</name>
-		<location-id>xbeliebig</location-id>
-		<street>Liebigstrasse 34</street>
+		<name>Griessmühle</name>
+		<location-id>Griessmuehle</location-id>
+		<street></street>
 		<city>Berlin</city>
 		<state></state>
 		<zip_code></zip_code>
@@ -132,10 +131,11 @@
 	</location>
 	<!-- image TODO in version 2 -->
 	<!-- price plain text -->
-	<price>Eintritt: Spende.</price>
+	<price>12€</price>
 	<tags>
 		<tag>Musik</tag>
-        <tag>Soli</tag>
+        <tag>Electro</tag>
+		<tag>Sex</tag>
 	</tags>
 	<attendees>
 		<attendendee>Peter1</attendendee>
@@ -145,7 +145,7 @@
 	<host></host>
 	<creator>user27</creator><!-- in data base only -->
 	<timestampOfCreation>2017-03-21T12:23:00+01:00</timestampOfCreation>
-	<eventImage>https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg</eventImage>
+	<eventImage>https://scontent.xx.fbcdn.net/v/t1.0-9/10687069_1013686641980056_3679833754028304914_n.jpg?oh=4c000a704faef124d3e9d51bee8ab3d2&ouml;oe=5992B18C</eventImage>
 </event>
 <event>
 	<title>Discover football</title>
