@@ -75,7 +75,7 @@ var loopThroughEvents = function (events) {
             '<hr class="visible-xs visible-lg">' +
             '<div class="event-details col-sm-6 col-md-12">' +
             '<div class="row">' +
-            '<div class="col-xs-6 col-sm-12">' +
+            '<div class="event-detail col-xs-6 col-sm-12">' +
             '<strong>Venue:</strong>' + events[i].description +
             '</div>' +
             '</div>' +
