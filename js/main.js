@@ -95,6 +95,11 @@ $(document).scroll(function() {
   $('.navbar-fixed-top').toggleClass('nav-shadow', $(document).scrollTop() >= 50);
 });
 
+$(".btn-toggle").click(function (ev) {
+    ev.preventDefault();
+    $(this).toggleClass('active');
+});
+
 var init = function () {
     $("#create").hide();
 
