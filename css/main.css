@@ -2,16 +2,53 @@ body {
   padding-top: 80px;
 }
 
-.thumbnail img.event-image {
+.thumbnail .event-image {
   width: 100%;
+  border-radius: 2px;
 }
 
 @media( max-width: 768px ) {
-  .thumbnail img.event-image {
+  .thumbnail .event-image {
     max-height: 150px;
   }
 }
 
-.thumbnail > img.event-image + .caption {
- /*float: left;*/
+.thumbnail .event-title {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  margin: 0;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fff;
+  background-color: rgba(0,0,0,.8);
+  border-radius: 0 0 2px 2px;
+}
+
+.thumbnail .event-timestamp {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+  font-weight: bold;
+}
+
+.thumbnail .event-description {
+  max-height: 120px;
+  overflow: hidden;
+}
+
+.thumbnail .event-details {
+  padding-bottom: 30px;
+}
+
+.thumbnail .attending {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
 }
