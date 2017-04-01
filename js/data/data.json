@@ -27,7 +27,8 @@
         "attendees": {
           "attendendee": [
             "Peter1",
-            "matthew27"
+            "matthew27",
+            "matthew2123"
           ]
         },
         "public": "false",
@@ -59,7 +60,9 @@
         "attendees": {
           "attendendee": [
             "Mona13",
-            "matthew27"
+            "matthew27",
+            "Mona13",
+            "Mona13"
           ]
         },
         "public": "true",
@@ -130,6 +133,18 @@
         "attendees": {
           "attendendee": [
             "Peter1",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
             "matthew27"
           ]
         },
@@ -156,12 +171,7 @@
             "LGBT"
           ]
         },
-        "attendees": {
-          "attendendee": [
-            "Mona13",
-            "matthew27"
-          ]
-        },
+        "attendees": { "attendendee": "Mona13" },
         "public": "true",
         "host": {
           "name": "Stuart",
