@@ -66,11 +66,83 @@ var data = {
    ]
  }
 };
+localStorage.setItem('eventData', JSON.stringify(data));
 
 
-for(var i = 0; i<data.data.event.length; i++){
-    var eventContainer ='<div class="col-md-4"><div class="thumbnail"><div class="row"><div class="col-sm-4 col-md-12"><img class="event-image pull-left" src="https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg" ></div><div class="col-sm-8 col-md-12"><div class="caption"><h3>' + data.data.event[i].title + '</h3><p>' + data.data.event[i].description + '</p></div></div></div><div class="clearfix"></div></div></div>';
-    console.log("pieps");
-    $( "#container" ).append(eventContainer);
-    
+$("#addEvent").click(function(ev){
+    ev.preventDefault();
+    $("#container").hide();
+    $("#create").show();
+    $("#addEvent").hide();
+    $("#listEvents").show();
+});
+$("#listEvents").click(function(ev){
+    ev.preventDefault();
+    $("#container").show();
+    $("#create").hide();
+    $("#addEvent").show();
+    $("#listEvents").hide();
+    loopThroughEvents(data.data.event);
+    //displayEvent(data.data.event);
+});
+
+var testObject = { 'one': 1, 'two': 2, 'three': 3 };
+
+// Put the object into storage
+
+
+// Retrieve the object from storage
+var retrievedObject = localStorage.getItem('testObject');
+
+console.log('retrievedObject: ', JSON.parse(retrievedObject));
+
+/*// Store
+localStorage.setItem("lastname", "Smith");
+// Retrieve
+document.getElementById("result").innerHTML = localStorage.getItem("lastname");*/
+
+$("#createEvent").click(function(ev){
+    ev.preventDefault();
+    var tmpEvent = {};
+    console.dir($("#eventTitle"));
+    tmpEvent.title = $("#eventTitle")[0].value;
+    tmpEvent.description = $("#eventDescription")[0].value;
+    console.dir(tmpEvent);
+    console.log("data");
+    console.dir(data);
+    data.data.event.push(tmpEvent);
+    console.dir(data);
+});
+var loopThroughEvents = function(events){
+    $("#container").empty();
+    for(var i = 0; i<events.length; i++){
+        var eventContainer ='<div class="col-md-4"><div class="thumbnail"><div class="row"><div class="col-sm-4 col-md-12"><img class="event-image pull-left" src="https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg" ></div><div class="col-sm-8 col-md-12"><div class="caption"><h3>' + events[i].title + '</h3><p>' + events[i].description + '</p></div></div></div><div class="clearfix"></div></div></div>';
+        console.log("pieps");
+        $( "#container" ).append(eventContainer);
+    }
 }
+var displayEvent = function(event){
+    for(var i = 0; i<events.length; i++){
+        var eventContainer ='<div class="col-md-4"><div class="thumbnail"><div class="row"><div class="col-sm-4 col-md-12"><img class="event-image pull-left" src="https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg" ></div><div class="col-sm-8 col-md-12"><div class="caption"><h3>' + event.title + '</h3><p>' + event.description + '</p></div></div></div><div class="clearfix"></div></div></div>';
+        console.log("pieps2");
+        $( "#container" ).append(eventContainer);
+    }
+}
+var init = function(){
+    $("#listEvents").hide();
+    $("#create").hide();
+    $("#container").show();
+    $("#addEvent").show();
+    loopThroughEvents(data.data.event);
+    if (localStorage.getItem('eventData') === undefined){
+        var retrievedObject = localStorage.getItem('eventData');
+    } else {
+        
+    }
+}
+init();
+
+
+
+
+
