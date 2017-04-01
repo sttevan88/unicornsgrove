@@ -1,11 +1,7 @@
 var data;
 var filter = {
   free: false,
-  taget_group: {
-    men: false,
-    women: false,
-    lgbt: false    
-  }
+  crowd:"All"
 }
 
 $("#addEvent").click(function (ev) {
@@ -22,7 +18,7 @@ $("#cancelEvent").click(function (ev) {
     $("#addEvent").show();
     $("#listEvents").show();
     $("#create").hide();
-    loopThroughEvents(data.data.event);
+    loopThroughEvents(data.data.event, filter);
 });
 $("#listEvents").click(function (ev) {
     ev.preventDefault();
@@ -31,7 +27,7 @@ $("#listEvents").click(function (ev) {
     $("#listEvents").show();
     $("#create").hide();
     $("#details").hide();
-    loopThroughEvents(data.data.event);
+    loopThroughEvents(data.data.event, filter);
 });
 $("#backBtn").click(function (ev) {
     ev.preventDefault();
@@ -60,10 +56,12 @@ $("#createEvent").click(function (ev) {
 });
 
 
-
-var applyFilter = function(){
-  console.log('aAAAAAAAAAA')
-}
+$("#applyBtn").click( function(ev){
+    ev.preventDefault();
+    filter.free = $("#toggle-free").hasClass("active");
+    filter.crowd = $("#crowd")[0].value;
+    loopThroughEvents(data.data.event, filter);
+});
 
 var showDetails = function( index){
     //ev.preventDefault();
@@ -80,8 +78,21 @@ var showDetails = function( index){
 }
 var loopThroughEvents = function (events, filter) {
     $("#eventsList").empty();
+    var tmpFilter = {
+        free:false,
+        crowd:false
+    };
     for (var i = 0; i < events.length; i++) {
-        var eventeventsList = '<div onclick="return showDetails('+i+')" id="event'+i+'"class="event col-sm-6 col-md-4 col-lg-3">' +
+        for (var j = 0; i < events[i].tag; j++) {
+            if (filter.free && events[i].tag[j] === "Free"){
+                tmpFilter.free = true;
+            }
+            if (filter.crowd === "All" || filter.crowd === events[i].tag[j]){
+                tmpFilter.crowd = true;
+            }
+        }
+        //if (tmpFilter.free && tmpFilter.crowd){
+            var eventeventsList = '<div onclick="return showDetails('+i+')" id="event'+i+'"class="event col-sm-6 col-md-4 col-lg-3">' +
             '<div class="thumbnail">' +
             '<div class="row">' +
             '<div class="col-xs-12">' +
@@ -118,6 +129,7 @@ var loopThroughEvents = function (events, filter) {
 
         console.log("pieps");
         $("#eventsList").append(eventeventsList);
+           // }
     }
 }
 
@@ -137,13 +149,13 @@ var init = function () {
     if (localStorage.getItem('eventData') !== null && localStorage.getItem('eventData').length > 20) {
         data = JSON.parse(localStorage.getItem('eventData'));
         console.log("get from localStorage %o", data);
-        loopThroughEvents(data.data.event);
+        loopThroughEvents(data.data.event, filter);
     } else {
         $.getJSON('js/data/data.json', function (result) {
             data = result;
             console.log("get data from JSON %o", data);
             localStorage.setItem('eventData',JSON.stringify(data));
-            loopThroughEvents(data.data.event);
+            loopThroughEvents(data.data.event, filter);
         });
     }
 }
