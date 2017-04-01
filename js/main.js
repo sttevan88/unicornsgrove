@@ -59,23 +59,25 @@ var showDetails = function( index){
 var loopThroughEvents = function (events) {
     $("#eventsList").empty();
     for (var i = 0; i < events.length; i++) {
-        var eventeventsList = '<div onclick="return showDetails('+i+')" id="event'+i+'"class="event col-md-4">' +
+        var eventeventsList = '<div onclick="return showDetails('+i+')" id="event'+i+'"class="event col-sm-6 col-md-4 col-lg-3">' +
             '<div class="thumbnail">' +
             '<div class="row">' +
-            '<div class="col-sm-4 col-md-12">' +
+            '<div class="col-xs-12">' +
             '<img class="event-image pull-left" src="' + events[i].eventImage + '" >' +
             '<h3 class="event-title">' + events[i].title + '</h3>' +
             '<div class="event-timestamp">' + new Date(events[i].timestampBegin) + '</div>' +
             '<div class="clearfix"></div>' +
             '</div>' +
-            '<div class="col-sm-8 col-md-12">' +
+            '<div class="col-xs-12">' +
             '<div class="caption">' +
             '<div class="row">' +
-            '<div class="event-description col-sm-6 col-md-12">' + events[i].description + '</div>' +
-            '<hr class="visible-xs visible-lg">' +
-            '<div class="event-details col-sm-6 col-md-12">' +
+            '<div class="event-description col-xs-12">' + events[i].description + '</div>' +
+            '<div class="col-xs-12 hidden-sm">' +
+            '<hr>' +
+            '</div>' +
+            '<div class="event-details col-xs-12">' +
             '<div class="row">' +
-            '<div class="col-xs-6 col-sm-12">' +
+            '<div class="event-detail col-xs-12">' +
             '<strong>Venue:</strong>' + events[i].description +
             '</div>' +
             '</div>' +
