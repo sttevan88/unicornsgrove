@@ -40,13 +40,13 @@
 </event>
 <event>
 	<title>Vesper</title>
-	<description>enjoy Zwouml;lf Apostel Kirche</description>
+	<description>enjoy Zw&amp;ouml;lf Apostel Kirche</description>
 	<timestampBegin>2017-04-01T12:20:00+01:00</timestampBegin>
 	<timestampEnd>2017-04-01T12:23:00+01:00</timestampEnd>
 	<!-- Link to the venue (identifier)-->
 	<location>
-		<name>Zwölf Apostel Kirche</name>
-		<location-id>ZwölfApostelKirche</location-id>
+		<name>Zw&amp;ouml;lf Apostel Kirche</name>
+		<location-id>ZwoelfApostelKirche</location-id>
 		<street></street>
 		<city></city>
 		<state></state>
@@ -82,7 +82,7 @@
 </event>
 <event>
 	<title>Unicorn Party Sprink Break</title>
-	<description>Youngster Party, Motto: Sprink Break. Nach der Fresh startet Bork Melms eine weitere Partyreihe in der Busche. Nach einem Umbau des Traditionsclubs entstanden neue Räume, die nun unter dem Namen Unicorn Club firmieren. Dort gibt’s jetzt einmal im Monat eine Youngsters-Sause. DJs Destiny Drescher, Patrick De Almendra, Tom (Pop, Main, House, Electro, Schlager) größere Kartensicht</description>
+	<description>Youngster Party, Motto: Sprink Break. Nach der Fresh startet Bork Melms eine weitere Partyreihe in der Busche. Nach einem Umbau des Traditionsclubs entstanden neue R&amp;auml;ume, die nun unter dem Namen Unicorn Club firmieren. Dort gibt’s jetzt einmal im Monat eine Youngsters-Sause. DJs Destiny Drescher, Patrick De Almendra, Tom (Pop, Main, House, Electro, Schlager) größere Kartensicht</description>
 	<timestampBegin>2017-04-01T20:00:00+01:00</timestampBegin>
 	<timestampEnd></timestampEnd>
 	<!-- Link to the venue (identifier)-->
