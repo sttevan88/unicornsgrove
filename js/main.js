@@ -161,6 +161,11 @@ var loopThroughEvents = function(events){
     $( "#eventsList" ).append(eventeventsList);
     }
 }
+
+$(document).scroll(function() {
+  $('.navbar-fixed-top').toggleClass('nav-shadow', $(document).scrollTop() >= 50);
+});
+
 var init = function(){
     $("#create").hide();
     loopThroughEvents(data.data.event);
@@ -170,4 +175,5 @@ var init = function(){
 
     }
 }
+
 init();
