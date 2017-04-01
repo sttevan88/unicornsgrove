@@ -102,7 +102,7 @@ $(".btn-toggle").click(function (ev) {
 var init = function () {
     $("#create").hide();
 
-    if (localStorage.getItem('eventData') !== undefined && localStorage.getItem('eventData').length > 20) {
+    if (localStorage.getItem('eventData') !== null && localStorage.getItem('eventData').length > 20) {
         data = JSON.parse(localStorage.getItem('eventData'));
         console.log("get from localStorage %o", data);
         loopThroughEvents(data.data.event);
@@ -116,4 +116,4 @@ var init = function () {
     }
 }
 
-init();
+// init();

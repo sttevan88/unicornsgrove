@@ -84,27 +84,45 @@
 
     <div id="create" class="container">
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <h1>Create an event</h1>
           <form>
-            Title:
-            <input type="text" id="eventTitle" placeholder="title of event"><br>
-            Description:
-            <input type="text" id="eventDescription" placeholder="description"><br>
-            Date:
-            <input type="text" id="eventDate" placeholder="description"><br>
-            Time:
-            <input type="text" id="eventTime" placeholder="description"><br>
-            Location:
-            <input type="text" id="eventLocation" placeholder="description"><br>
-            Image:
-            <input type="text" id="eventImage" placeholder="description"><br>
-            Location:
-            <input type="text" id="eventLocation" placeholder="description"><br>
-            Hoster:
-            <input type="text" id="eventHoster" placeholder="description"><br>
-            <br>
-            <button id="cancelEvent" class="btn btn-default">Cancel</button>
-            <button id="createEvent" class="btn btn-primary">Create</button>
+            <div class="form-group">
+              <label for="eventTitle">Title:</label>
+              <input type="text" class="form-control" id="eventTitle" placeholder="title of event">
+            </div>
+            <div class="form-group">
+              <label for="eventDescription">Description:</label>
+              <input type="text" class="form-control" id="eventDescription">
+            </div>
+            <div class="form-group">
+              <label for="eventDate">Date:</label>
+              <input type="text" class="form-control" id="eventDate">
+            </div>
+            <div class="form-group">
+              <label for="eventTime">Time:</label>
+              <input type="text" class="form-control" id="eventTime">
+            </div>
+            <div class="form-group">
+              <label for="eventLocation">Location:</label>
+              <input type="text" class="form-control" id="eventLocation">
+            </div>
+            <div class="form-group">
+              <label for="eventImage">Image:</label>
+              <input type="text" class="form-control" id="eventImage">
+            </div>
+            <div class="form-group">
+              <label for="eventLocation">Location:</label>
+              <input type="text" class="form-control" id="eventLocation">
+            </div>
+            <div class="form-group">
+              <label for="eventHoster">Hoster:</label>
+              <input type="text" class="form-control" id="eventHoster">
+            </div>
+            <div class="pull-right">
+              <button id="cancelEvent" class="btn btn-default">Cancel</button>
+              <button id="createEvent" class="btn btn-primary">Create</button>
+            </div>
           </form>
         </div>
       </div>
@@ -157,7 +175,7 @@
       <footer>
         <p>&copy; Unicorn Grove 2017</p>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+    </div>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
