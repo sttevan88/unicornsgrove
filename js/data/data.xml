@@ -134,7 +134,7 @@
 	</location>
 	<!-- image TODO in version 2 -->
 	<!-- price plain text -->
-	<price>12€</price>
+	<price>12&amp;euro;</price>
 	<tags>
 		<tag>Musik</tag>
 		<tag>Men</tag>
@@ -167,7 +167,7 @@
 		<latitude>52.500664</latitude>
 		<longitude>13.358781</longitude>
 	</location>
-	<price>3 €</price>
+	<price>3 &amp;euro;</price>
 	<tags>
 		<tag>Sport</tag>
 		<tag>Women</tag>
