@@ -76,3 +76,8 @@ nav.navbar-fixed-top {
   background-color: #eee;
   border-radius: 5px 0 5px 0;
 }
+
+#details .event-image {
+  height: auto;
+  width: 100%;
+}
