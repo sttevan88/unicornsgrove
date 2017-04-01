@@ -148,14 +148,13 @@
 	<eventImage>https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg</eventImage>
 </event>
 <event>
-	<title>Vesper something.</title>
-	<description>enjoy Zwouml;lf Apostel Kirche</description>
-	<timestampBegin>2017-04-01T12:20:00+01:00</timestampBegin>
-	<timestampEnd>2017-04-01T12:23:00+01:00</timestampEnd>
-	<!-- Link to the venue (identifier)-->
+	<title>Discover football</title>
+	<description>Fußball Turnier am Morgen.</description>
+	<timestampBegin>2017-04-02T09:00:00+01:00</timestampBegin>
+	<timestampEnd></timestampEnd>
 	<location>
-		<name>Zwölf Apostel Kirche</name>
-		<location-id>ZwölfApostelKirche</location-id>
+		<name>Jan Sportplatz</name>
+		<location-id>jan-sportplatz</location-id>
 		<street></street>
 		<city></city>
 		<state></state>
@@ -164,12 +163,9 @@
 		<latitude>52.500664</latitude>
 		<longitude>13.358781</longitude>
 	</location>
-	<!-- image TODO in version 2 -->
-	<!-- price plain text -->
-	<price>Eintritt: 99,-€</price>
+	<price>3 €</price>
 	<tags>
-		<tag>Irgendwas</tag>
-        <tag>Soli</tag>
+		<tag>Sport</tag>
 	</tags>
 	<attendees>
 		<attendendee>Mona13</attendendee>
@@ -182,6 +178,6 @@
 	</host>
 	<creator>matthew27</creator><!-- in data base only -->
 	<timestampOfCreation>2017-03-01T12:23:00+01:00</timestampOfCreation>
-	<eventImage>http://www.bildarchiv-hamburg.de/hamburg/kirchen/apostel/apostel1.jpg</eventImage>
+	<eventImage>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRE2bQnq7hMonjZLvlzCO0PNruWWQlIjCRCyTF7LKEwpkJxW-L6</eventImage>
 </event>
 </data>
