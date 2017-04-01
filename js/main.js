@@ -60,7 +60,7 @@ var loopThroughEvents = function (events) {
             '<div class="thumbnail">' +
             '<div class="row">' +
             '<div class="col-sm-4 col-md-12">' +
-            '<img class="event-image pull-left" src="https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg" >' +
+            '<img class="event-image pull-left" src="' + events[i].images.image[0] + '" >' +
             '<h3 class="event-title">' + events[i].title + '</h3>' +
             '<div class="event-timestamp">' + events[i].timestampBegin + '</div>' +
             '<div class="clearfix"></div>' +
