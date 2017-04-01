@@ -19,11 +19,12 @@
 		<latitude>52.518130</latitude>
 		<longitude>13.456940</longitude>
 	</location>
-	<!-- image TODO in version 2 -->
-	<!-- price plain text -->
 	<price>Eintritt: Spende.</price>
 	<tags>
 		<tag>Musik</tag>
+		<tag>LGTB</tag>
+		<tag>Men</tag>
+		<tag>Women</tag>
         <tag>Soli</tag>
 	</tags>
 	<attendees>
@@ -57,6 +58,9 @@
 	<!-- price plain text -->
 	<price>Eintritt: 99,-€</price>
 	<tags>
+		<tag>LGBTI</tag>
+		<tag>Men</tag>
+		<tag>Women</tag>
 		<tag>Irgendwas</tag>
         <tag>Soli</tag>
 	</tags>
@@ -90,12 +94,11 @@
 		<latitude>52.500664</latitude>
 		<longitude>13.358781</longitude>
 	</location>
-	<!-- image TODO in version 2 -->
-	<!-- price plain text -->
 	<price>?</price>
 	<tags>
 		<tag>Busche</tag>
         <tag>Party</tag>
+		<tag>Women</tag>
 	</tags>
 	<attendees>
 		<attendendee>Mona13</attendendee>
@@ -134,6 +137,7 @@
 	<price>12€</price>
 	<tags>
 		<tag>Musik</tag>
+		<tag>Men</tag>
         <tag>Electro</tag>
 		<tag>Sex</tag>
 	</tags>
@@ -145,7 +149,7 @@
 	<host></host>
 	<creator>user27</creator><!-- in data base only -->
 	<timestampOfCreation>2017-03-21T12:23:00+01:00</timestampOfCreation>
-	<eventImage>https://scontent.xx.fbcdn.net/v/t1.0-9/10687069_1013686641980056_3679833754028304914_n.jpg?oh=4c000a704faef124d3e9d51bee8ab3d2&ouml;oe=5992B18C</eventImage>
+	<eventImage>https://scontent.xx.fbcdn.net/v/t1.0-9/10687069_1013686641980056_3679833754028304914_n.jpg?oh=4c000a704faef124d3e9d51bee8ab3d2&amp;oe=5992B18C</eventImage>
 </event>
 <event>
 	<title>Discover football</title>
@@ -166,6 +170,8 @@
 	<price>3 €</price>
 	<tags>
 		<tag>Sport</tag>
+		<tag>Women</tag>
+		<tag>LGBT</tag>
 	</tags>
 	<attendees>
 		<attendendee>Mona13</attendendee>
