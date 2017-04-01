@@ -77,7 +77,7 @@ var loopThroughEvents = function (events) {
             '<div class="event-details col-xs-12">' +
             '<div class="row">' +
             '<div class="event-detail col-xs-12">' +
-            '<strong>Venue: </strong>' + events[i].description +
+            '<strong>Venue: </strong>' + events[i].location.name +
             '</div>' +
             '<div class="event-detail col-xs-12">' +
             '<strong>Entry: </strong>' + events[i].price +

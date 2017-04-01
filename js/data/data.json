@@ -17,9 +17,11 @@
         "price": "Eintritt: Spende.",
         "tags": {
           "tag": [
+            "Musik",
+            "LGTB",
             "Men",
             "Women",
-            "Free"
+            "Soli"
           ]
         },
         "attendees": {
@@ -34,7 +36,7 @@
         "eventImage": "https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg"
       },
       {
-        "title": "Vesper something.",
+        "title": "Vesper",
         "description": "enjoy Zwouml;lf Apostel Kirche",
         "timestampBegin": "2017-04-01T12:20:00+01:00",
         "timestampEnd": "2017-04-01T12:23:00+01:00",
@@ -44,11 +46,14 @@
           "latitude": "52.500664",
           "longitude": "13.358781"
         },
-        "price": "Eintritt: 99,-€",
+        "price": "Eintritt: 99,-&euro;",
         "tags": {
           "tag": [
+            "LGBTI",
+            "Men",
             "Women",
-            "LGBT"
+            "Irgendwas",
+            "Soli"
           ]
         },
         "attendees": {
@@ -82,8 +87,9 @@
         "price": "?",
         "tags": {
           "tag": [
-            "Men",
-            "Free"
+            "Busche",
+            "Party",
+            "Women"
           ]
         },
         "attendees": {
@@ -102,24 +108,23 @@
         "eventImage": "https://scontent.xx.fbcdn.net/v/t1.0-9/17264763_1841064002817202_649364053932559223_n.png?oh=4dec07e56b702bc3309e1977d4ab5851&oe=5967F755"
       },
       {
-        "title": "X-B-Liebig: Konzert \"Light the Bob\", \"Chappi Bourgoise\" und \"Itaca\".",
-        "description": "enjoy \"Light the Bob\", \"Chappi Bourgoise\" und \"Itaca\".",
-        "timestampBegin": "2017-04-01T12:20:00+01:00",
-        "timestampEnd": "2017-04-01T12:23:00+01:00",
+        "title": "CockTail d'Amore XXL ",
+        "description": "Das schwule Must-do für den ersten Samstag des Monats: die Cocktail. Die riesige Homo-Dance-Sause lockt zudem die Jungs und Kerle wieder mit einem grandiosen Line-up. U. a. legen Prosumer und James Hillard bei der zweitägigen Partyspritztour auf.",
+        "timestampBegin": "2017-04-01T23:00:00+01:00",
         "location": {
-          "name": "X-B_Liebig",
-          "location-id": "xbeliebig",
-          "street": "Liebigstrasse 34",
+          "name": "Griessmühle",
+          "location-id": "Griessmuehle",
           "city": "Berlin",
           "latitude": "52.518130",
           "longitude": "13.456940"
         },
-        "price": "Eintritt: Spende.",
+        "price": "12&euro;",
         "tags": {
           "tag": [
-            "Women",
-            "LGBT",
-            "Free"
+            "Musik",
+            "Men",
+            "Electro",
+            "Sex"
           ]
         },
         "attendees": {
@@ -131,23 +136,22 @@
         "public": "false",
         "creator": "user27",
         "timestampOfCreation": "2017-03-21T12:23:00+01:00",
-        "eventImage": "https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg"
+        "eventImage": "https://scontent.xx.fbcdn.net/v/t1.0-9/10687069_1013686641980056_3679833754028304914_n.jpg?oh=4c000a704faef124d3e9d51bee8ab3d2&oe=5992B18C"
       },
       {
-        "title": "Vesper something.",
-        "description": "enjoy Zwouml;lf Apostel Kirche",
-        "timestampBegin": "2017-04-01T12:20:00+01:00",
-        "timestampEnd": "2017-04-01T12:23:00+01:00",
+        "title": "Discover football",
+        "description": "Fußball Turnier am Morgen.",
+        "timestampBegin": "2017-04-02T09:00:00+01:00",
         "location": {
-          "name": "Zwölf Apostel Kirche",
-          "location-id": "ZwölfApostelKirche",
+          "name": "Jan Sportplatz",
+          "location-id": "jan-sportplatz",
           "latitude": "52.500664",
           "longitude": "13.358781"
         },
-        "price": "Eintritt: 99,-€",
+        "price": "3 &euro;",
         "tags": {
           "tag": [
-            "Men",
+            "Sport",
             "Women",
             "LGBT"
           ]
@@ -165,7 +169,7 @@
         },
         "creator": "matthew27",
         "timestampOfCreation": "2017-03-01T12:23:00+01:00",
-        "eventImage": "http://www.bildarchiv-hamburg.de/hamburg/kirchen/apostel/apostel1.jpg"
+        "eventImage": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRE2bQnq7hMonjZLvlzCO0PNruWWQlIjCRCyTF7LKEwpkJxW-L6"
       }
     ]
   }
