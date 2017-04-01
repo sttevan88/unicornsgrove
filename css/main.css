@@ -1,22 +1,17 @@
+body {
+  padding-top: 80px;
+}
 
+.thumbnail img.event-image {
+  width: 100%;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+@media( max-width: 768px ) {
+  .thumbnail img.event-image {
+    max-height: 150px;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.thumbnail > img.event-image + .caption {
+ /*float: left;*/
+}
