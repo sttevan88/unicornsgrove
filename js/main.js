@@ -70,17 +70,24 @@ localStorage.setItem('eventData', JSON.stringify(data));
 
 $("#addEvent").click(function(ev){
     ev.preventDefault();
-    $("#container").hide();
-    $("#create").show();
+    $("#eventsList").hide();
     $("#addEvent").hide();
+    $("#listEvents").hide();
+    $("#create").show();
+});
+$("#cancelEvent").click(function(ev){
+    ev.preventDefault();
+    $("#eventsList").show();
+    $("#addEvent").show();
     $("#listEvents").show();
+    $("#create").hide();
 });
 $("#listEvents").click(function(ev){
     ev.preventDefault();
-    $("#container").show();
-    $("#create").hide();
+    $("#eventsList").show();
     $("#addEvent").show();
-    $("#listEvents").hide();
+    $("#listEvents").show();
+    $("#create").hide();
     loopThroughEvents(data.data.event);
     //displayEvent(data.data.event);
 });
@@ -113,9 +120,9 @@ $("#createEvent").click(function(ev){
     console.dir(data);
 });
 var loopThroughEvents = function(events){
-    $("#container").empty();
+    $("#eventsList").empty();
     for(var i = 0; i<data.data.event.length; i++){
-    var eventContainer ='<div class="col-md-4">'+
+    var eventeventsList ='<div class="col-md-4">'+
                           '<div class="thumbnail">'+
                             '<div class="row">'+
                               '<div class="col-sm-4 col-md-12">'+
@@ -147,24 +154,16 @@ var loopThroughEvents = function(events){
                           '<div class="clearfix">'+
                         '</div>';
     console.log("pieps");
-    $( "#container" ).append(eventContainer);
+    $( "#eventsList" ).append(eventeventsList);
     }
 }
 var init = function(){
-    $("#listEvents").hide();
     $("#create").hide();
-    $("#container").show();
-    $("#addEvent").show();
     loopThroughEvents(data.data.event);
     if (localStorage.getItem('eventData') === undefined){
         var retrievedObject = localStorage.getItem('eventData');
     } else {
-        
+
     }
 }
 init();
-
-
-
-
-
