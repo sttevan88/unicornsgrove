@@ -45,18 +45,34 @@ $("#backBtn").click(function (ev) {
 $("#createEvent").click(function (ev) {
     ev.preventDefault();
     var tmpEvent = {};
-    console.dir($("#eventTitle"));
     tmpEvent.title = $("#eventTitle")[0].value;
     tmpEvent.description = $("#eventDescription")[0].value;
 
     tmpEvent.attendees = {
         attendendee: []
     };
-    console.dir(tmpEvent);
     data.data.event.push(tmpEvent);
-    console.log("data");
-    console.dir(data);
     localStorage.setItem('eventData',JSON.stringify(data));
+    $('#details').empty();
+    let detailsPage = '<div class="col-xs-12 col-md-8 col-md-offset-2">'+
+          '<div class="row">'+
+            '<div class="col-xs-12">'+
+
+            '</div>'+
+          '</div>'+
+          '<div class="row"><div class="col-xs-12"><p><h3 class="event-title">'+tmpEvent.title+
+                  '<button id="backBtn" class="btn btn-default pull-right">Back</button>'+
+                '</h3>'+
+                '<img class="event-image" src="'+tmpEvent.eventImage+'">'+
+              '</p></div><div class="col-xs-12"><div class="panel panel-info"><div class="panel-body">'+
+                  '<div class="col-xs-12"><div class="row"><div class="event-time col-sm-6"><strong>Begin: </strong> '+ new Date(tmpEvent.timestampBegin) +
+                      '</div><div class="event-time col-sm-6"><strong>End: </strong> '+ new Date(tmpEvent.timestampEnd) +
+                      '</div><div class="event-detail col-sm-6"><strong>Venue: </strong>' + tmpEvent.description +
+                      '</div><div class="event-detail col-sm-6"><strong>Entry: </strong>' + tmpEvent.price+
+                      '</div></div></div></div></div></div><div class="col-xs-12"><div class="attending pull-right">Attending <span class="badge">'+
+                       tmpEvent.attendees.attendendee.length +'</span></div><div class="caption"><div class="row"><div class="event-description col-xs-12">'+ tmpEvent.description +
+                       '</div></div></div></div></div></div>'
+    $("#details").append(eventeventsList);
 });
 
 
