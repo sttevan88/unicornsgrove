@@ -66,13 +66,55 @@ var data = {
    ]
  }
 };
+localStorage.setItem('eventData', JSON.stringify(data));
+
+$("#addEvent").click(function(ev){
+    ev.preventDefault();
+    $("#container").hide();
+    $("#create").show();
+    $("#addEvent").hide();
+    $("#listEvents").show();
+});
+$("#listEvents").click(function(ev){
+    ev.preventDefault();
+    $("#container").show();
+    $("#create").hide();
+    $("#addEvent").show();
+    $("#listEvents").hide();
+    loopThroughEvents(data.data.event);
+    //displayEvent(data.data.event);
+});
+
+var testObject = { 'one': 1, 'two': 2, 'three': 3 };
+
+// Put the object into storage
 
 
+// Retrieve the object from storage
+var retrievedObject = localStorage.getItem('testObject');
 
+console.log('retrievedObject: ', JSON.parse(retrievedObject));
 
+/*// Store
+localStorage.setItem("lastname", "Smith");
+// Retrieve
+document.getElementById("result").innerHTML = localStorage.getItem("lastname");*/
 
-
-for(var i = 0; i<data.data.event.length; i++){
+$("#createEvent").click(function(ev){
+    ev.preventDefault();
+    var tmpEvent = {};
+    console.dir($("#eventTitle"));
+    tmpEvent.title = $("#eventTitle")[0].value;
+    tmpEvent.description = $("#eventDescription")[0].value;
+    console.dir(tmpEvent);
+    console.log("data");
+    console.dir(data);
+    data.data.event.push(tmpEvent);
+    console.dir(data);
+});
+var loopThroughEvents = function(events){
+    $("#container").empty();
+    for(var i = 0; i<data.data.event.length; i++){
     var eventContainer ='<div class="col-md-4">'+
                           '<div class="thumbnail">'+
                             '<div class="row">'+
@@ -106,5 +148,23 @@ for(var i = 0; i<data.data.event.length; i++){
                         '</div>';
     console.log("pieps");
     $( "#container" ).append(eventContainer);
-    
+    }
 }
+var init = function(){
+    $("#listEvents").hide();
+    $("#create").hide();
+    $("#container").show();
+    $("#addEvent").show();
+    loopThroughEvents(data.data.event);
+    if (localStorage.getItem('eventData') === undefined){
+        var retrievedObject = localStorage.getItem('eventData');
+    } else {
+        
+    }
+}
+init();
+
+
+
+
+
