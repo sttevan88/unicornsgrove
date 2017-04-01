@@ -54,6 +54,11 @@ nav.navbar-fixed-top {
   overflow: hidden;
 }
 
+.thumbnail:hover {
+  border-color: #0000ff;
+  cursor: pointer;
+}
+
 .event-details {
   padding-bottom: 30px;
 }

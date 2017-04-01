@@ -52,7 +52,6 @@ var showDetails = function( index){
     $("#listEvents").show();
     $("#create").hide();
     var tmpDetails = '';
-    $("#details").append("<div>Details</div>");
     $("#details").show();
     //console.dir($(ev.target));
 }
