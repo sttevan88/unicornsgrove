@@ -27,7 +27,8 @@
         "attendees": {
           "attendendee": [
             "Peter1",
-            "matthew27"
+            "matthew27",
+            "matthew2123"
           ]
         },
         "public": "false",
@@ -37,12 +38,12 @@
       },
       {
         "title": "Vesper",
-        "description": "enjoy Zwouml;lf Apostel Kirche",
+        "description": "enjoy Zw&ouml;lf Apostel Kirche",
         "timestampBegin": "2017-04-01T12:20:00+01:00",
         "timestampEnd": "2017-04-01T12:23:00+01:00",
         "location": {
-          "name": "Zwölf Apostel Kirche",
-          "location-id": "ZwölfApostelKirche",
+          "name": "Zw&ouml;lf Apostel Kirche",
+          "location-id": "ZwoelfApostelKirche",
           "latitude": "52.500664",
           "longitude": "13.358781"
         },
@@ -59,7 +60,9 @@
         "attendees": {
           "attendendee": [
             "Mona13",
-            "matthew27"
+            "matthew27",
+            "Mona13",
+            "Mona13"
           ]
         },
         "public": "true",
@@ -73,7 +76,7 @@
       },
       {
         "title": "Unicorn Party Sprink Break",
-        "description": "Youngster Party, Motto: Sprink Break. Nach der Fresh startet Bork Melms eine weitere Partyreihe in der Busche. Nach einem Umbau des Traditionsclubs entstanden neue Räume, die nun unter dem Namen Unicorn Club firmieren. Dort gibt’s jetzt einmal im Monat eine Youngsters-Sause. DJs Destiny Drescher, Patrick De Almendra, Tom (Pop, Main, House, Electro, Schlager) größere Kartensicht",
+        "description": "Youngster Party, Motto: Sprink Break. Nach der Fresh startet Bork Melms eine weitere Partyreihe in der Busche. Nach einem Umbau des Traditionsclubs entstanden neue R&auml;ume, die nun unter dem Namen Unicorn Club firmieren. Dort gibt’s jetzt einmal im Monat eine Youngsters-Sause. DJs Destiny Drescher, Patrick De Almendra, Tom (Pop, Main, House, Electro, Schlager) größere Kartensicht",
         "timestampBegin": "2017-04-01T20:00:00+01:00",
         "location": {
           "name": "Unicorn Club@Die Busche",
@@ -112,7 +115,7 @@
         "description": "Das schwule Must-do für den ersten Samstag des Monats: die Cocktail. Die riesige Homo-Dance-Sause lockt zudem die Jungs und Kerle wieder mit einem grandiosen Line-up. U. a. legen Prosumer und James Hillard bei der zweitägigen Partyspritztour auf.",
         "timestampBegin": "2017-04-01T23:00:00+01:00",
         "location": {
-          "name": "Griessmühle",
+          "name": "Griessm&uuml;hle",
           "location-id": "Griessmuehle",
           "city": "Berlin",
           "latitude": "52.518130",
@@ -130,6 +133,18 @@
         "attendees": {
           "attendendee": [
             "Peter1",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
+            "matthew27",
             "matthew27"
           ]
         },
@@ -156,12 +171,7 @@
             "LGBT"
           ]
         },
-        "attendees": {
-          "attendendee": [
-            "Mona13",
-            "matthew27"
-          ]
-        },
+        "attendees": { "attendendee": "Mona13" },
         "public": "true",
         "host": {
           "name": "Stuart",
