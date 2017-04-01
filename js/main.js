@@ -49,6 +49,27 @@ $("#createEvent").click(function (ev) {
     };
     data.data.event.push(tmpEvent);
     localStorage.setItem('eventData',JSON.stringify(data));
+});
+
+
+$("#applyBtn").click( function(ev){
+    ev.preventDefault();
+    filter.free = $("#toggle-free").hasClass("active");
+    filter.crowd = $("#crowd")[0].value;
+    loopThroughEvents(data.data.event, filter);
+});
+
+var showDetails = function( index){
+    //ev.preventDefault();
+    var tmpEvent = data.data.event[index];
+    console.dir(data.data.event[index]);
+    $("#eventsList").hide();
+    $("#addEvent").hide();
+    $("#listEvents").show();
+    $("#create").hide();
+    var tmpDetails = '';
+    $("#details").show();
+    $("#navbar-filters").hide();
     $('#details').empty();
     let detailsPage = '<div class="col-xs-12 col-md-8 col-md-offset-2">'+
           '<div class="row">'+
@@ -68,28 +89,7 @@ $("#createEvent").click(function (ev) {
                       '</div></div></div></div></div></div><div class="col-xs-12"><div class="attending pull-right">Attending <span class="badge">'+
                        tmpEvent.attendees.attendendee.length +'</span></div><div class="caption"><div class="row"><div class="event-description col-xs-12">'+ tmpEvent.description +
                        '</div></div></div></div></div></div>'
-    $("#details").append(eventeventsList);
-});
-
-
-$("#applyBtn").click( function(ev){
-    ev.preventDefault();
-    filter.free = $("#toggle-free").hasClass("active");
-    filter.crowd = $("#crowd")[0].value;
-    loopThroughEvents(data.data.event, filter);
-});
-
-var showDetails = function( index){
-    //ev.preventDefault();
-    console.log("piep");
-    console.dir(data.data.event[index]);
-    $("#eventsList").hide();
-    $("#addEvent").hide();
-    $("#listEvents").show();
-    $("#create").hide();
-    var tmpDetails = '';
-    $("#details").show();
-    $("#navbar-filters").hide();
+    $("#details").append(detailsPage);
     //console.dir($(ev.target));
 }
 var loopThroughEvents = function (events, filter) {
