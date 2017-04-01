@@ -17,8 +17,9 @@
         "price": "Eintritt: Spende.",
         "tags": {
           "tag": [
-            "Musik",
-            "Soli"
+            "Men",
+            "Women",
+            "Free"
           ]
         },
         "attendees": {
@@ -46,8 +47,8 @@
         "price": "Eintritt: 99,-€",
         "tags": {
           "tag": [
-            "Irgendwas",
-            "Soli"
+            "Women",
+            "LGBT"
           ]
         },
         "attendees": {
@@ -81,8 +82,8 @@
         "price": "?",
         "tags": {
           "tag": [
-            "Busche",
-            "Party"
+            "Men",
+            "Free"
           ]
         },
         "attendees": {
@@ -116,8 +117,9 @@
         "price": "Eintritt: Spende.",
         "tags": {
           "tag": [
-            "Musik",
-            "Soli"
+            "Women",
+            "LGBT",
+            "Free"
           ]
         },
         "attendees": {
@@ -145,8 +147,9 @@
         "price": "Eintritt: 99,-€",
         "tags": {
           "tag": [
-            "Irgendwas",
-            "Soli"
+            "Men",
+            "Women",
+            "LGBT"
           ]
         },
         "attendees": {
