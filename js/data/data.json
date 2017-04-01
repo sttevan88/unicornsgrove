@@ -34,7 +34,7 @@
       },
       {
         "title": "Vesper something.",
-        "description": "enjoy Zwölf Apostel Kirche",
+        "description": "enjoy Zwouml;lf Apostel Kirche",
         "timestampBegin": "2017-04-01T12:20:00+01:00",
         "timestampEnd": "2017-04-01T12:23:00+01:00",
         "location": {
@@ -68,7 +68,7 @@
       {
         "title": "Unicorn Party Sprink Break",
         "description": "Youngster Party, Motto: Sprink Break. Nach der Fresh startet Bork Melms eine weitere Partyreihe in der Busche. Nach einem Umbau des Traditionsclubs entstanden neue Räume, die nun unter dem Namen Unicorn Club firmieren. Dort gibt’s jetzt einmal im Monat eine Youngsters-Sause. DJs Destiny Drescher, Patrick De Almendra, Tom (Pop, Main, House, Electro, Schlager) größere Kartensicht",
-        "timestampBegin": "01. April 2017, 22:00 Uhr",
+        "timestampBegin": "2017-04-01T20:00:00+01:00",
         "location": {
           "name": "Unicorn Club@Die Busche",
           "location-id": "Busche",
@@ -99,6 +99,70 @@
         "creator": "matthew27",
         "timestampOfCreation": "2017-03-01T12:23:00+01:00",
         "eventImage": "https://scontent.xx.fbcdn.net/v/t1.0-9/17264763_1841064002817202_649364053932559223_n.png?oh=4dec07e56b702bc3309e1977d4ab5851&oe=5967F755"
+      },
+      {
+        "title": "X-B-Liebig: Konzert \"Light the Bob\", \"Chappi Bourgoise\" und \"Itaca\".",
+        "description": "enjoy \"Light the Bob\", \"Chappi Bourgoise\" und \"Itaca\".",
+        "timestampBegin": "2017-04-01T12:20:00+01:00",
+        "timestampEnd": "2017-04-01T12:23:00+01:00",
+        "location": {
+          "name": "X-B_Liebig",
+          "location-id": "xbeliebig",
+          "street": "Liebigstrasse 34",
+          "city": "Berlin",
+          "latitude": "52.518130",
+          "longitude": "13.456940"
+        },
+        "price": "Eintritt: Spende.",
+        "tags": {
+          "tag": [
+            "Musik",
+            "Soli"
+          ]
+        },
+        "attendees": {
+          "attendendee": [
+            "Peter1",
+            "matthew27"
+          ]
+        },
+        "public": "false",
+        "creator": "user27",
+        "timestampOfCreation": "2017-03-21T12:23:00+01:00",
+        "eventImage": "https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg"
+      },
+      {
+        "title": "Vesper something.",
+        "description": "enjoy Zwouml;lf Apostel Kirche",
+        "timestampBegin": "2017-04-01T12:20:00+01:00",
+        "timestampEnd": "2017-04-01T12:23:00+01:00",
+        "location": {
+          "name": "Zwölf Apostel Kirche",
+          "location-id": "ZwölfApostelKirche",
+          "latitude": "52.500664",
+          "longitude": "13.358781"
+        },
+        "price": "Eintritt: 99,-€",
+        "tags": {
+          "tag": [
+            "Irgendwas",
+            "Soli"
+          ]
+        },
+        "attendees": {
+          "attendendee": [
+            "Mona13",
+            "matthew27"
+          ]
+        },
+        "public": "true",
+        "host": {
+          "name": "Stuart",
+          "image": "tes"
+        },
+        "creator": "matthew27",
+        "timestampOfCreation": "2017-03-01T12:23:00+01:00",
+        "eventImage": "http://www.bildarchiv-hamburg.de/hamburg/kirchen/apostel/apostel1.jpg"
       }
     ]
   }

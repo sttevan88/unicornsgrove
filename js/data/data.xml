@@ -1,0 +1,187 @@
+<data>
+<event>
+	<title>X-B-Liebig: Konzert "Light the Bob", "Chappi Bourgoise" und "Itaca".</title>
+	<description>enjoy "Light the Bob", "Chappi Bourgoise" und "Itaca".</description>
+	<!-- 2009-01-01T12:00:00+01:00 -->
+	<timestampBegin>2017-04-01T12:20:00+01:00</timestampBegin>
+	<timestampEnd>2017-04-01T12:23:00+01:00</timestampEnd>
+	<!-- <timestampBegin>1491036844</timestampBegin> -->
+	<!-- <timestampEnd>1491036844</timestampEnd>  -->
+	<!-- Link to the venue -->
+	<location>
+		<name>X-B_Liebig</name>
+		<location-id>xbeliebig</location-id>
+		<street>Liebigstrasse 34</street>
+		<city>Berlin</city>
+		<state></state>
+		<zip_code></zip_code>
+		<country></country>
+		<latitude>52.518130</latitude>
+		<longitude>13.456940</longitude>
+	</location>
+	<!-- image TODO in version 2 -->
+	<!-- price plain text -->
+	<price>Eintritt: Spende.</price>
+	<tags>
+		<tag>Musik</tag>
+        <tag>Soli</tag>
+	</tags>
+	<attendees>
+		<attendendee>Peter1</attendendee>
+		<attendendee>matthew27</attendendee>
+	</attendees>
+	<public>false</public>
+	<host></host>
+	<creator>user27</creator><!-- in data base only -->
+	<timestampOfCreation>2017-03-21T12:23:00+01:00</timestampOfCreation>
+	<eventImage>https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg</eventImage>
+</event>
+<event>
+	<title>Vesper something.</title>
+	<description>enjoy Zwouml;lf Apostel Kirche</description>
+	<timestampBegin>2017-04-01T12:20:00+01:00</timestampBegin>
+	<timestampEnd>2017-04-01T12:23:00+01:00</timestampEnd>
+	<!-- Link to the venue (identifier)-->
+	<location>
+		<name>Zwölf Apostel Kirche</name>
+		<location-id>ZwölfApostelKirche</location-id>
+		<street></street>
+		<city></city>
+		<state></state>
+		<zip_code></zip_code>
+		<country></country>
+		<latitude>52.500664</latitude>
+		<longitude>13.358781</longitude>
+	</location>
+	<!-- image TODO in version 2 -->
+	<!-- price plain text -->
+	<price>Eintritt: 99,-€</price>
+	<tags>
+		<tag>Irgendwas</tag>
+        <tag>Soli</tag>
+	</tags>
+	<attendees>
+		<attendendee>Mona13</attendendee>
+		<attendendee>matthew27</attendendee>
+	</attendees>
+	<public>true</public>
+	<host>
+		<name>Stuart</name>
+		<image>tes</image>
+	</host>
+	<creator>matthew27</creator><!-- in data base only -->
+	<timestampOfCreation>2017-03-01T12:23:00+01:00</timestampOfCreation>
+	<eventImage>http://www.bildarchiv-hamburg.de/hamburg/kirchen/apostel/apostel1.jpg</eventImage>
+</event>
+<event>
+	<title>Unicorn Party Sprink Break</title>
+	<description>Youngster Party, Motto: Sprink Break. Nach der Fresh startet Bork Melms eine weitere Partyreihe in der Busche. Nach einem Umbau des Traditionsclubs entstanden neue Räume, die nun unter dem Namen Unicorn Club firmieren. Dort gibt’s jetzt einmal im Monat eine Youngsters-Sause. DJs Destiny Drescher, Patrick De Almendra, Tom (Pop, Main, House, Electro, Schlager) größere Kartensicht</description>
+	<timestampBegin>2017-04-01T20:00:00+01:00</timestampBegin>
+	<timestampEnd></timestampEnd>
+	<!-- Link to the venue (identifier)-->
+	<location>
+		<name>Unicorn Club@Die Busche</name>
+		<location-id>Busche</location-id>
+		<street>Warschauer Str. 18</street>
+		<city>Berlin</city>
+		<state></state>
+		<zip_code>10243</zip_code>
+		<country></country>
+		<latitude>52.500664</latitude>
+		<longitude>13.358781</longitude>
+	</location>
+	<!-- image TODO in version 2 -->
+	<!-- price plain text -->
+	<price>?</price>
+	<tags>
+		<tag>Busche</tag>
+        <tag>Party</tag>
+	</tags>
+	<attendees>
+		<attendendee>Mona13</attendendee>
+		<attendendee>matthew27</attendendee>
+	</attendees>
+	<public>true</public>
+	<host>
+		<name>Stuart</name>
+		<image>tes</image>
+	</host>
+	<creator>matthew27</creator><!-- in data base only -->
+	<timestampOfCreation>2017-03-01T12:23:00+01:00</timestampOfCreation>
+	<eventImage>https://scontent.xx.fbcdn.net/v/t1.0-9/17264763_1841064002817202_649364053932559223_n.png?oh=4dec07e56b702bc3309e1977d4ab5851&amp;oe=5967F755</eventImage>
+</event>
+<event>
+	<title>X-B-Liebig: Konzert "Light the Bob", "Chappi Bourgoise" und "Itaca".</title>
+	<description>enjoy "Light the Bob", "Chappi Bourgoise" und "Itaca".</description>
+	<!-- 2009-01-01T12:00:00+01:00 -->
+	<timestampBegin>2017-04-01T12:20:00+01:00</timestampBegin>
+	<timestampEnd>2017-04-01T12:23:00+01:00</timestampEnd>
+	<!-- <timestampBegin>1491036844</timestampBegin> -->
+	<!-- <timestampEnd>1491036844</timestampEnd>  -->
+	<!-- Link to the venue -->
+	<location>
+		<name>X-B_Liebig</name>
+		<location-id>xbeliebig</location-id>
+		<street>Liebigstrasse 34</street>
+		<city>Berlin</city>
+		<state></state>
+		<zip_code></zip_code>
+		<country></country>
+		<latitude>52.518130</latitude>
+		<longitude>13.456940</longitude>
+	</location>
+	<!-- image TODO in version 2 -->
+	<!-- price plain text -->
+	<price>Eintritt: Spende.</price>
+	<tags>
+		<tag>Musik</tag>
+        <tag>Soli</tag>
+	</tags>
+	<attendees>
+		<attendendee>Peter1</attendendee>
+		<attendendee>matthew27</attendendee>
+	</attendees>
+	<public>false</public>
+	<host></host>
+	<creator>user27</creator><!-- in data base only -->
+	<timestampOfCreation>2017-03-21T12:23:00+01:00</timestampOfCreation>
+	<eventImage>https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg</eventImage>
+</event>
+<event>
+	<title>Vesper something.</title>
+	<description>enjoy Zwouml;lf Apostel Kirche</description>
+	<timestampBegin>2017-04-01T12:20:00+01:00</timestampBegin>
+	<timestampEnd>2017-04-01T12:23:00+01:00</timestampEnd>
+	<!-- Link to the venue (identifier)-->
+	<location>
+		<name>Zwölf Apostel Kirche</name>
+		<location-id>ZwölfApostelKirche</location-id>
+		<street></street>
+		<city></city>
+		<state></state>
+		<zip_code></zip_code>
+		<country></country>
+		<latitude>52.500664</latitude>
+		<longitude>13.358781</longitude>
+	</location>
+	<!-- image TODO in version 2 -->
+	<!-- price plain text -->
+	<price>Eintritt: 99,-€</price>
+	<tags>
+		<tag>Irgendwas</tag>
+        <tag>Soli</tag>
+	</tags>
+	<attendees>
+		<attendendee>Mona13</attendendee>
+		<attendendee>matthew27</attendendee>
+	</attendees>
+	<public>true</public>
+	<host>
+		<name>Stuart</name>
+		<image>tes</image>
+	</host>
+	<creator>matthew27</creator><!-- in data base only -->
+	<timestampOfCreation>2017-03-01T12:23:00+01:00</timestampOfCreation>
+	<eventImage>http://www.bildarchiv-hamburg.de/hamburg/kirchen/apostel/apostel1.jpg</eventImage>
+</event>
+</data>

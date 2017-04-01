@@ -56,7 +56,7 @@ $("#createEvent").click(function (ev) {
 var loopThroughEvents = function (events) {
     $("#eventsList").empty();
     for (var i = 0; i < events.length; i++) {
-        var eventeventsList = '<div class="col-md-4">' +
+        var eventeventsList = '<div class="col-md-4 col-lg-3">' +
             '<div class="thumbnail">' +
               '<div class="row">' +
                 '<div class="col-sm-4 col-md-12">' +
