@@ -60,9 +60,9 @@ var loopThroughEvents = function (events) {
             '<div class="thumbnail">' +
             '<div class="row">' +
             '<div class="col-sm-4 col-md-12">' +
-            '<img class="event-image pull-left" src="' + events[i].images.image[0] + '" >' +
+            '<img class="event-image pull-left" src="' + events[i].eventImage + '" >' +
             '<h3 class="event-title">' + events[i].title + '</h3>' +
-            '<div class="event-timestamp">' + events[i].timestampBegin + '</div>' +
+            '<div class="event-timestamp">' + new Date(events[i].timestampBegin) + '</div>' +
             '<div class="clearfix"></div>' +
             '</div>' +
             '<div class="col-sm-8 col-md-12">' +
@@ -75,8 +75,6 @@ var loopThroughEvents = function (events) {
             '<div class="col-xs-6 col-sm-12">' +
             '<strong>Venue:</strong>' + events[i].description +
             '</div>' +
-            '<div class="col-xs-6 col-sm-12">' +
-            '<strong>Venue:</strong>' + events[i].description +
             '</div>' +
             '</div>' +
             '</div>' +
@@ -100,7 +98,7 @@ $(document).scroll(function() {
 var init = function () {
     $("#create").hide();
 
-    if (localStorage.getItem('eventData') !== undefined && localStorage.getItem('eventData').length > 20) {
+    if (localStorage.getItem('eventData') !== null && localStorage.getItem('eventData').length > 20) {
         data = JSON.parse(localStorage.getItem('eventData'));
         console.log("get from localStorage %o", data);
         loopThroughEvents(data.data.event);
