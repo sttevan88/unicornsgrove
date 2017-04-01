@@ -125,7 +125,7 @@
 	<!-- <timestampEnd>1491036844</timestampEnd>  -->
 	<!-- Link to the venue -->
 	<location>
-		<name>Griessmühle</name>
+		<name>Griessm&amp;uuml;hle</name>
 		<location-id>Griessmuehle</location-id>
 		<street></street>
 		<city>Berlin</city>
