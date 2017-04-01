@@ -6,6 +6,7 @@ $("#addEvent").click(function (ev) {
     $("#addEvent").hide();
     $("#listEvents").hide();
     $("#create").show();
+    $("#details").hide();
 });
 $("#cancelEvent").click(function (ev) {
     ev.preventDefault();
@@ -21,21 +22,9 @@ $("#listEvents").click(function (ev) {
     $("#addEvent").show();
     $("#listEvents").show();
     $("#create").hide();
+    $("#details").hide();
     loopThroughEvents(data.data.event);
 });
-
-// Put the object into storage
-
-
-// Retrieve the object from storage
-//var retrievedObject = localStorage.getItem('testObject');
-
-//console.log('retrievedObject: ', JSON.parse(retrievedObject));
-
-/*// Store
-localStorage.setItem("lastname", "Smith");
-// Retrieve
-document.getElementById("result").innerHTML = localStorage.getItem("lastname");*/
 
 $("#createEvent").click(function (ev) {
     ev.preventDefault();
@@ -53,10 +42,24 @@ $("#createEvent").click(function (ev) {
     console.dir(data);
     localStorage.setItem('eventData',JSON.stringify(data));
 });
+
+var showDetails = function( index){
+    //ev.preventDefault();
+    console.log("piep");
+    console.dir(data.data.event[index]);
+    $("#eventsList").hide();
+    $("#addEvent").hide();
+    $("#listEvents").hide();
+    $("#create").hide();
+    var tmpDetails = '';
+    $("#details").append("<div>Details</div>");
+    $("#details").show();
+    //console.dir($(ev.target));
+}
 var loopThroughEvents = function (events) {
     $("#eventsList").empty();
     for (var i = 0; i < events.length; i++) {
-        var eventeventsList = '<div class="col-md-4">' +
+        var eventeventsList = '<div onclick="return showDetails('+i+')" id="event'+i+'"class="event col-md-4">' +
             '<div class="thumbnail">' +
             '<div class="row">' +
             '<div class="col-sm-4 col-md-12">' +
@@ -102,6 +105,7 @@ $(".btn-toggle").click(function (ev) {
 
 var init = function () {
     $("#create").hide();
+    $("#details").hide();
 
     if (localStorage.getItem('eventData') !== null && localStorage.getItem('eventData').length > 20) {
         data = JSON.parse(localStorage.getItem('eventData'));
