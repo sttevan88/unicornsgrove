@@ -53,7 +53,7 @@
         </div>
       </div>
     </nav>
-    <nav class="navbar navbar-default nav-shadow" role="navigation">
+    <nav id="navbar-filters" class="navbar navbar-default nav-shadow" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -132,8 +132,60 @@
 
     <div  class="container">
       <div id="eventsList" class="row"></div>
-      <div id="details" class="row"></div>
 
+      <div id="details" class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <div class="row">
+            <div class="col-xs-12">
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <p>
+                <h3 class="event-title">
+                  events[i].title
+                  <button id="backBtn" class="btn btn-default pull-right">Back</button>
+                </h3>
+                <img class="event-image" src="https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg">
+              </p>
+            </div>
+            <div class="col-xs-12">
+              <div class="panel panel-info">
+                <div class="panel-body">
+                  <div class="col-xs-12">
+                    <div class="row">
+                      <div class="event-time col-sm-6">
+                        <strong>Begin: </strong> events[i].timestampBegin
+                      </div>
+                      <div class="event-time col-sm-6">
+                        <strong>End: </strong> events[i].timestampEnd
+                      </div>
+                      <div class="event-detail col-sm-6">
+                        <strong>Venue: </strong> events[i].description
+                      </div>
+                      <div class="event-detail col-sm-6">
+                        <strong>Entry: </strong> events[i].price
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="attending pull-right">Attending <span class="badge"> events[i].attendees.attendendee.length </span>
+              </div>
+              <div class="caption">
+                <div class="row">
+                  <div class="event-description col-xs-12"> events[i].description </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clearfix">
       <hr>
       <footer>
         <p>&copy; Unicorn Grove 2017</p>

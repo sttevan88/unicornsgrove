@@ -33,6 +33,14 @@ $("#listEvents").click(function (ev) {
     $("#details").hide();
     loopThroughEvents(data.data.event);
 });
+$("#backBtn").click(function (ev) {
+    ev.preventDefault();
+    $("#eventsList").show();
+    $("#addEvent").show();
+    $("#listEvents").show();
+    $("#create").hide();
+    $("#navbar-filters").show();
+});
 
 $("#createEvent").click(function (ev) {
     ev.preventDefault();
@@ -66,8 +74,8 @@ var showDetails = function( index){
     $("#listEvents").show();
     $("#create").hide();
     var tmpDetails = '';
-    $("#details").append("<div>Details</div>");
     $("#details").show();
+    $("#navbar-filters").hide();
     //console.dir($(ev.target));
 }
 var loopThroughEvents = function (events, filter) {

@@ -19,16 +19,18 @@
 		<latitude>52.518130</latitude>
 		<longitude>13.456940</longitude>
 	</location>
-	<!-- image TODO in version 2 -->
-	<!-- price plain text -->
 	<price>Eintritt: Spende.</price>
 	<tags>
 		<tag>Musik</tag>
+		<tag>LGTB</tag>
+		<tag>Men</tag>
+		<tag>Women</tag>
         <tag>Soli</tag>
 	</tags>
 	<attendees>
 		<attendendee>Peter1</attendendee>
 		<attendendee>matthew27</attendendee>
+		<attendendee>matthew2123</attendendee>
 	</attendees>
 	<public>false</public>
 	<host></host>
@@ -38,13 +40,13 @@
 </event>
 <event>
 	<title>Vesper</title>
-	<description>enjoy Zwouml;lf Apostel Kirche</description>
+	<description>enjoy Zw&amp;ouml;lf Apostel Kirche</description>
 	<timestampBegin>2017-04-01T12:20:00+01:00</timestampBegin>
 	<timestampEnd>2017-04-01T12:23:00+01:00</timestampEnd>
 	<!-- Link to the venue (identifier)-->
 	<location>
-		<name>Zwölf Apostel Kirche</name>
-		<location-id>ZwölfApostelKirche</location-id>
+		<name>Zw&amp;ouml;lf Apostel Kirche</name>
+		<location-id>ZwoelfApostelKirche</location-id>
 		<street></street>
 		<city></city>
 		<state></state>
@@ -55,14 +57,19 @@
 	</location>
 	<!-- image TODO in version 2 -->
 	<!-- price plain text -->
-	<price>Eintritt: 99,-€</price>
+	<price>Eintritt: 99,-&amp;euro;</price>
 	<tags>
+		<tag>LGBTI</tag>
+		<tag>Men</tag>
+		<tag>Women</tag>
 		<tag>Irgendwas</tag>
         <tag>Soli</tag>
 	</tags>
 	<attendees>
 		<attendendee>Mona13</attendendee>
 		<attendendee>matthew27</attendendee>
+		<attendendee>Mona13</attendendee>
+		<attendendee>Mona13</attendendee>
 	</attendees>
 	<public>true</public>
 	<host>
@@ -75,7 +82,7 @@
 </event>
 <event>
 	<title>Unicorn Party Sprink Break</title>
-	<description>Youngster Party, Motto: Sprink Break. Nach der Fresh startet Bork Melms eine weitere Partyreihe in der Busche. Nach einem Umbau des Traditionsclubs entstanden neue Räume, die nun unter dem Namen Unicorn Club firmieren. Dort gibt’s jetzt einmal im Monat eine Youngsters-Sause. DJs Destiny Drescher, Patrick De Almendra, Tom (Pop, Main, House, Electro, Schlager) größere Kartensicht</description>
+	<description>Youngster Party, Motto: Sprink Break. Nach der Fresh startet Bork Melms eine weitere Partyreihe in der Busche. Nach einem Umbau des Traditionsclubs entstanden neue R&amp;auml;ume, die nun unter dem Namen Unicorn Club firmieren. Dort gibt’s jetzt einmal im Monat eine Youngsters-Sause. DJs Destiny Drescher, Patrick De Almendra, Tom (Pop, Main, House, Electro, Schlager) größere Kartensicht</description>
 	<timestampBegin>2017-04-01T20:00:00+01:00</timestampBegin>
 	<timestampEnd></timestampEnd>
 	<!-- Link to the venue (identifier)-->
@@ -90,12 +97,11 @@
 		<latitude>52.500664</latitude>
 		<longitude>13.358781</longitude>
 	</location>
-	<!-- image TODO in version 2 -->
-	<!-- price plain text -->
 	<price>?</price>
 	<tags>
 		<tag>Busche</tag>
         <tag>Party</tag>
+		<tag>Women</tag>
 	</tags>
 	<attendees>
 		<attendendee>Mona13</attendendee>
@@ -119,7 +125,7 @@
 	<!-- <timestampEnd>1491036844</timestampEnd>  -->
 	<!-- Link to the venue -->
 	<location>
-		<name>Griessmühle</name>
+		<name>Griessm&amp;uuml;hle</name>
 		<location-id>Griessmuehle</location-id>
 		<street></street>
 		<city>Berlin</city>
@@ -131,21 +137,34 @@
 	</location>
 	<!-- image TODO in version 2 -->
 	<!-- price plain text -->
-	<price>12€</price>
+	<price>12&amp;euro;</price>
 	<tags>
 		<tag>Musik</tag>
+		<tag>Men</tag>
         <tag>Electro</tag>
 		<tag>Sex</tag>
 	</tags>
 	<attendees>
 		<attendendee>Peter1</attendendee>
 		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
+		<attendendee>matthew27</attendendee>
 	</attendees>
 	<public>false</public>
 	<host></host>
 	<creator>user27</creator><!-- in data base only -->
 	<timestampOfCreation>2017-03-21T12:23:00+01:00</timestampOfCreation>
-	<eventImage>https://scontent.xx.fbcdn.net/v/t1.0-9/10687069_1013686641980056_3679833754028304914_n.jpg?oh=4c000a704faef124d3e9d51bee8ab3d2&ouml;oe=5992B18C</eventImage>
+	<eventImage>https://scontent.xx.fbcdn.net/v/t1.0-9/10687069_1013686641980056_3679833754028304914_n.jpg?oh=4c000a704faef124d3e9d51bee8ab3d2&amp;oe=5992B18C</eventImage>
 </event>
 <event>
 	<title>Discover football</title>
@@ -163,13 +182,14 @@
 		<latitude>52.500664</latitude>
 		<longitude>13.358781</longitude>
 	</location>
-	<price>3 €</price>
+	<price>3 &amp;euro;</price>
 	<tags>
 		<tag>Sport</tag>
+		<tag>Women</tag>
+		<tag>LGBT</tag>
 	</tags>
 	<attendees>
 		<attendendee>Mona13</attendendee>
-		<attendendee>matthew27</attendendee>
 	</attendees>
 	<public>true</public>
 	<host>

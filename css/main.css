@@ -54,6 +54,11 @@ nav.navbar-fixed-top {
   overflow: hidden;
 }
 
+.thumbnail:hover {
+  border-color: #0000ff;
+  cursor: pointer;
+}
+
 .event-details {
   padding-bottom: 30px;
 }
@@ -70,4 +75,9 @@ nav.navbar-fixed-top {
   padding: 5px 10px;
   background-color: #eee;
   border-radius: 5px 0 5px 0;
+}
+
+#details .event-image {
+  height: auto;
+  width: 100%;
 }
