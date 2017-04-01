@@ -1,71 +1,4 @@
-var data = {
- "data": {
-   "event": [
-     {
-       "title": "X-B-Liebig: Konzert \"Light the Bob\", \"Chappi Bourgoise\" und \"Itaca\".",
-       "description": "enjoy \"Light the Bob\", \"Chappi Bourgoise\" und \"Itaca\".",
-       "timestampBegin": "2017-04-01T12:20:00+01:00",
-       "timestampEnd": "2017-04-01T12:23:00+01:00",
-       "location": {
-         "name": "X-B_Liebig",
-         "location-id": "xbeliebig",
-         "street": "Liebigstrasse 34",
-         "city": "Berlin",
-         "latitude": "52.518130",
-         "longitude": "13.456940"
-       },
-       "price": "Eintritt: Spende.",
-       "tags": {
-         "tag": [
-           "Musik",
-           "Soli"
-         ]
-       },
-       "attendees": {
-         "attendendee": [
-           "Peter1",
-           "matthew27"
-         ]
-       },
-       "public": "false",
-       "creator": "user27",
-       "timestampOfCreation": "2017-03-21T12:23:00+01:00"
-     },
-     {
-       "title": "Vesper something.",
-       "description": "enjoy Zwölf Apostel Kirche",
-       "timestampBegin": "2017-04-01T12:20:00+01:00",
-       "timestampEnd": "2017-04-01T12:23:00+01:00",
-       "location": {
-         "name": "Zwölf Apostel Kirche",
-         "location-id": "ZwölfApostelKirche",
-         "latitude": "52.500664",
-         "longitude": "13.358781"
-       },
-       "price": "Eintritt: 99,-€",
-       "tags": {
-         "tag": [
-           "Irgendwas",
-           "Soli"
-         ]
-       },
-       "attendees": {
-         "attendendee": [
-           "Mona13",
-           "matthew27"
-         ]
-       },
-       "public": "true",
-       "host": {
-         "name": "Stuart",
-         "image": "https://unicornsintech.slack.com/files/reaz/F4SCFG509/image_uploaded_from_ios.jpg"
-       },
-       "creator": "matthew27",
-       "timestampOfCreation": "2017-03-01T12:23:00+01:00"
-     }
-   ]
- }
-};
+var data;
 localStorage.setItem('eventData', JSON.stringify(data));
 
 $("#addEvent").click(function(ev){
@@ -91,9 +24,9 @@ var testObject = { 'one': 1, 'two': 2, 'three': 3 };
 
 
 // Retrieve the object from storage
-var retrievedObject = localStorage.getItem('testObject');
+//var retrievedObject = localStorage.getItem('testObject');
 
-console.log('retrievedObject: ', JSON.parse(retrievedObject));
+//console.log('retrievedObject: ', JSON.parse(retrievedObject));
 
 /*// Store
 localStorage.setItem("lastname", "Smith");
@@ -150,7 +83,6 @@ var loopThroughEvents = function(events){
                           '</div>'+
                           '<div class="clearfix">'+
                         '</div>';
-    console.log("pieps");
     $( "#container" ).append(eventContainer);
     }
 }
@@ -159,12 +91,18 @@ var init = function(){
     $("#create").hide();
     $("#container").show();
     $("#addEvent").show();
-    loopThroughEvents(data.data.event);
+    console.log(localStorage.getItem('eventData')); 
     if (localStorage.getItem('eventData') === undefined){
-        var retrievedObject = localStorage.getItem('eventData');
+        $.getJSON('data/data.json', function(data) {
+        data = data;
+        console.log("data %o", data);
+    });
+        //var retrievedObject = localStorage.getItem('eventData');
     } else {
         
+        console.log("else %o", data);
     }
+    //loopThroughEvents(data.data.event);
 }
 init();
 
