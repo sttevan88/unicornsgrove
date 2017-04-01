@@ -118,7 +118,7 @@
           "latitude": "52.518130",
           "longitude": "13.456940"
         },
-        "price": "12€",
+        "price": "12&euro;",
         "tags": {
           "tag": [
             "Musik",
@@ -148,7 +148,7 @@
           "latitude": "52.500664",
           "longitude": "13.358781"
         },
-        "price": "3 €",
+        "price": "3 &euro;",
         "tags": {
           "tag": [
             "Sport",
