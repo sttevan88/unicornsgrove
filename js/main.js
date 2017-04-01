@@ -58,34 +58,31 @@ var loopThroughEvents = function (events) {
     for (var i = 0; i < events.length; i++) {
         var eventeventsList = '<div class="col-md-4">' +
             '<div class="thumbnail">' +
-            '<div class="row">' +
-            '<div class="col-sm-4 col-md-12">' +
-            '<img class="event-image pull-left" src="https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg" >' +
-            '<h3 class="event-title">' + events[i].title + '</h3>' +
-            '<div class="event-timestamp">' + events[i].timestampBegin + '</div>' +
-            '<div class="clearfix"></div>' +
-            '</div>' +
-            '<div class="col-sm-8 col-md-12">' +
-            '<div class="caption">' +
-            '<div class="row">' +
-            '<div class="event-description col-sm-6 col-md-12">' + events[i].description + '</div>' +
-            '<hr class="visible-xs visible-lg">' +
-            '<div class="event-details col-sm-6 col-md-12">' +
-            '<div class="row">' +
-            '<div class="col-xs-6 col-sm-12">' +
-            '<strong>Venue:</strong>' + events[i].description +
-            '</div>' +
-            '<div class="col-xs-6 col-sm-12">' +
-            '<strong>Venue:</strong>' + events[i].description +
-            '</div>' +
-            '</div>' +
-            '</div>' +
-            '</div>' +
-            '</div>' +
-            '<div class="attending">Attending <span class="badge">' + events[i].attendees.attendendee.length + '</span></div>' +
-            '</div>' +
-            '</div>' +
-            '<div class="clearfix">' +
+              '<div class="row">' +
+                '<div class="col-sm-4 col-md-12">' +
+                  '<img class="event-image pull-left" src="https://s-media-cache-ak0.pinimg.com/originals/e9/d8/71/e9d871a35f3c095308e9f7a3daa8d61f.jpg" >' +
+                  '<h3 class="event-title">' + events[i].title + '</h3>' +
+                  '<div class="event-timestamp">' + events[i].timestampBegin + '</div>' +
+                  '<div class="clearfix"></div>' +
+                '</div>' +
+                '<div class="col-sm-8 col-md-12">' +
+                  '<div class="caption">' +
+                    '<div class="row">' +
+                      '<div class="event-description col-sm-6 col-md-12">' + events[i].description + '</div>' +
+                      '<hr class="visible-xs visible-lg">' +
+                      '<div class="event-details col-sm-6 col-md-12">' +
+                        '<div class="row">' +
+                          '<div class="event-detail col-xs-6 col-sm-12">' +
+                            '<strong>Venue: </strong>' + events[i].description +
+                          '</div>' +
+                        '</div>' +
+                      '</div>' +
+                    '</div>' +
+                  '</div>' +
+                '</div>' +
+                '<div class="attending">Attending <span class="badge">' + events[i].attendees.attendendee.length + '</span></div>' +
+              '</div>' +
+              '<div class="clearfix">' +
             '</div>';
 
         console.log("pieps");
