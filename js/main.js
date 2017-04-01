@@ -1,4 +1,12 @@
 var data;
+var filter = {
+  free: false,
+  taget_group: {
+    men: false,
+    women: false,
+    lgbt: false    
+  }
+}
 
 $("#addEvent").click(function (ev) {
     ev.preventDefault();
@@ -43,6 +51,12 @@ $("#createEvent").click(function (ev) {
     localStorage.setItem('eventData',JSON.stringify(data));
 });
 
+
+
+var applyFilter = function(){
+  console.log('aAAAAAAAAAA')
+}
+
 var showDetails = function( index){
     //ev.preventDefault();
     console.log("piep");
@@ -56,7 +70,7 @@ var showDetails = function( index){
     $("#details").show();
     //console.dir($(ev.target));
 }
-var loopThroughEvents = function (events) {
+var loopThroughEvents = function (events, filter) {
     $("#eventsList").empty();
     for (var i = 0; i < events.length; i++) {
         var eventeventsList = '<div onclick="return showDetails('+i+')" id="event'+i+'"class="event col-sm-6 col-md-4 col-lg-3">' +

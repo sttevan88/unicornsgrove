@@ -67,17 +67,19 @@
           <form class="navbar-form form-inline" role="form">
             <div class="form-group">
               <!-- <label for="sel1">Crowd</label> -->
-              <select class="form-control" id="crowd">
-                <option>Mixed</option>
-                <option>Men Only</option>
-                <option>Women Only</option>
-                <option>LGBT Friendly</option>
+              <select class="form-control blah" id="crowd">
+                <option data-value="All" value="All">Mixed</option>
+                <option data-value="Men" value="Men">Men Only</option>
+                <option data-value="Women" value="Women">Women Only</option>
+                <option data-value="LGBT" value="LGBT">LGBT Friendly</option>
               </select>
             </div>
             <div class="form-group">
               <div id="toggle-free" class="btn-toggle btn btn-default">Free</div>
             </div>
+            
           </form>
+            <button onclick="return applyFilter()" class="btn btn-default pull-right">Apply</button>
         </div>
       </div>
     </nav>
