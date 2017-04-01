@@ -106,6 +106,10 @@ $("#createEvent").click(function(ev){
     console.dir($("#eventTitle"));
     tmpEvent.title = $("#eventTitle")[0].value;
     tmpEvent.description = $("#eventDescription")[0].value;
+
+    tmpEvent.attendees= {
+      attendendee: []
+    } ;
     console.dir(tmpEvent);
     console.log("data");
     console.dir(data);
