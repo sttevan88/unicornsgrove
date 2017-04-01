@@ -8,9 +8,14 @@ nav.navbar-fixed-top {
   box-shadow: 0 1px 15px rgba(0,0,0,.4);
 }
 
+.thumbnail {
+  position: relative;
+}
+
 .thumbnail .event-image {
   width: 100%;
   border-radius: 2px;
+  height: 150px;
 }
 
 @media( max-width: 768px ) {
@@ -45,16 +50,24 @@ nav.navbar-fixed-top {
 }
 
 .thumbnail .event-description {
-  max-height: 120px;
+  height: 60px;
   overflow: hidden;
 }
 
-.thumbnail .event-details {
+.event-details {
   padding-bottom: 30px;
+}
+
+.event-detail {
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .thumbnail .attending {
   position: absolute;
   bottom: 0;
-  right: 20px;
+  right: 0;
+  padding: 5px 10px;
+  background-color: #eee;
+  border-radius: 5px 0 5px 0;
 }

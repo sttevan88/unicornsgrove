@@ -49,7 +49,7 @@ var showDetails = function( index){
     console.dir(data.data.event[index]);
     $("#eventsList").hide();
     $("#addEvent").hide();
-    $("#listEvents").hide();
+    $("#listEvents").show();
     $("#create").hide();
     var tmpDetails = '';
     $("#details").append("<div>Details</div>");
